@@ -70,7 +70,7 @@ export function Footer() {
                 fatimazehra.work@gmail.com
               </a>
               <a
-                href="https://wa.me/message/DRFATIMAZAHRA"
+                href="https://wa.me/923706369914"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with Dr. Fatima on WhatsApp"
@@ -79,7 +79,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-white/4 border border-white/6 flex items-center justify-center group-hover:border-[#25D366]/30 group-hover:bg-[#25D366]/8 transition-all">
                   <MessageCircle className="w-4 h-4" />
                 </div>
-                WhatsApp — Instant Reply
+                +92 370 6369914
               </a>
             </div>
           </div>

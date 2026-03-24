@@ -37,11 +37,11 @@ export function MethodologySection() {
             transition={{ duration: 0.55 }}
           >
             <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-4">Our Methodology</p>
-            <h2 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight leading-tight mb-5">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
               Modern Learning,<br />Global Reach.
             </h2>
             <p className="text-base text-white/50 mb-10 leading-relaxed">
-              Designed for international parents who demand absolute reliability. Our digital infrastructure rivals modern classrooms — because distance should never compromise the quality of education.
+              Designed for <span className="text-white/90 font-bold">international parents</span> who demand <span className="text-white/90 font-bold">absolute reliability</span>. Our digital infrastructure rivals modern classrooms — because distance should never compromise the <span className="text-white/90 font-bold">quality of education</span>.
             </p>
 
             <div className="space-y-5">
@@ -58,7 +58,7 @@ export function MethodologySection() {
                     <f.icon className={`w-5 h-5 ${f.color}`} />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-white/90 mb-0.5">{f.title}</p>
+                    <p className="text-sm font-bold text-white/90 mb-0.5">{f.title}</p>
                     <p className="text-sm text-white/40 leading-relaxed">{f.desc}</p>
                   </div>
                 </motion.div>

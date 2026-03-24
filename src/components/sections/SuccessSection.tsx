@@ -55,12 +55,12 @@ export function SuccessSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-3">Student Outcomes</p>
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white mb-4">
+          <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-4">Student Outcomes</p>
+          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-6">
             Proven Success Stories
           </h2>
           <p className="text-base text-white/50 leading-relaxed">
-            A consistent track record of helping international students reach their highest academic potential.
+            A consistent track record of helping <span className="text-white/90 font-bold">international students</span> reach their <span className="text-white/90 font-bold">highest academic potential</span>.
           </p>
         </motion.div>
 

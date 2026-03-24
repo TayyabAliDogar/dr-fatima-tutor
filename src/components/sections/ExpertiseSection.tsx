@@ -77,12 +77,12 @@ export function ExpertiseSection() {
           transition={{ duration: 0.5 }}
         >
           <div>
-            <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-3">What We Teach</p>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white mb-3">
+            <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-4">What We Teach</p>
+            <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-5">
               Expertise & Subjects
             </h2>
             <p className="text-base text-white/50 max-w-xl leading-relaxed">
-              Comprehensive tutoring across all major international examination boards, delivering absolute clarity and peak academic performance.
+              Comprehensive tutoring across all major <span className="text-white/90 font-bold">international examination boards</span>, delivering absolute clarity and <span className="text-white/90 font-bold">peak academic performance</span>.
             </p>
           </div>
           <button
@@ -112,7 +112,7 @@ export function ExpertiseSection() {
                 <div className="flex items-center justify-between mb-1.5">
                   <div className="flex items-center gap-2.5">
                     <div className={`w-1.5 h-5 rounded-full ${group.accentBar}`} />
-                    <h3 className="text-base font-bold text-white">{group.category}</h3>
+                    <h3 className="text-base font-extrabold text-white">{group.category}</h3>
                   </div>
                   <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full ${group.badgeStyle}`}>
                     {group.badge}

@@ -63,7 +63,7 @@ export function ContactSection() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xs font-semibold text-[#3B82F6] uppercase tracking-widest mb-3">Get in Touch</p>
-            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white mb-5">
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight text-white mb-6">
               Ready to secure an A*?
             </h2>
             <p className="text-base text-white/50 mb-10 leading-relaxed">
@@ -85,7 +85,7 @@ export function ContactSection() {
               </a>
 
               <a
-                href="https://wa.me/message/DRFATIMAZAHRA"
+                href="https://wa.me/923706369914"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with Dr. Fatima on WhatsApp"
@@ -96,7 +96,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-white/35 mb-0.5">WhatsApp</p>
-                  <p className="text-sm font-semibold text-white/80">Chat with Dr. Fatima</p>
+                  <p className="text-sm font-semibold text-white/80">+92 370 6369914</p>
                 </div>
               </a>
             </div>

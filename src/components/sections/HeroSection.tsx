@@ -52,17 +52,21 @@ export function HeroSection() {
               Doctor of Physical Therapy · International Medical Tutor
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-white leading-[1.06] mb-6">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.06] mb-3">
+              Dr. Fatima Zahra
+            </h1>
+
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-[1.1] mb-6">
               Unlocking Academic{" "}
               <span className="text-[#3B82F6]">Excellence</span>{" "}
               in Sciences.
-            </h1>
+            </h2>
 
             <p className="text-base sm:text-lg text-white/55 mb-10 leading-relaxed max-w-lg">
-              Conceptual online tutoring by a Medical Doctor. Expert guidance for{" "}
-              <span className="text-white/80 font-semibold">O/A Levels, IGCSE, GCSE</span> (AQA/CIE/Edexcel),{" "}
-              <span className="text-white/80 font-semibold">MCAT</span>, and Medical Subjects.
-              5+ years of proven success helping international students achieve A* grades.
+              Conceptual online tutoring by a <span className="text-white/90 font-bold">Medical Doctor</span>. Expert guidance for{" "}
+              <span className="text-white/90 font-bold">O/A Levels, IGCSE, GCSE</span> (AQA/CIE/Edexcel),{" "}
+              <span className="text-white/90 font-bold">MCAT</span>, and <span className="text-white/90 font-bold">Medical Subjects</span>.
+              5+ years of proven success helping international students achieve <span className="text-white/90 font-bold">A* grades</span>.
             </p>
 
             {/* Key feature pills — requirements highlight */}
